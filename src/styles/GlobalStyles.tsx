@@ -129,6 +129,9 @@ const GlobalStyles = () => (
       }
       * {
         box-sizing: border-box;
+        font-size: 1.6rem;
+        font-family: 'Pretendard Variable', Pretendard, 'Malgun Gothic',
+          Helvetica, 'Apple SD Gothic Neo', Sans-serif;
       }
       html {
         width: 100%;
@@ -140,9 +143,6 @@ const GlobalStyles = () => (
       #root {
         width: 100%;
         height: 100%;
-        font-size: 1.6rem;
-        font-family: 'Pretendard Variable', Pretendard, 'Malgun Gothic',
-          Helvetica, 'Apple SD Gothic Neo', Sans-serif;
       }
     `}
   />
