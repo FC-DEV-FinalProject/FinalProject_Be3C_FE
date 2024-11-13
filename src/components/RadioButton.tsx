@@ -1,4 +1,6 @@
 import { css } from '@emotion/react';
+import { COLOR, COLOR_OPACITY } from '@/constants/color';
+import { FONT_SIZE, FONT_WEIGHT } from '@/constants/font';
 
 interface RadioOptionProps {
   text: string;
@@ -37,15 +39,15 @@ const labelWrapperStyle = css`
   display: flex;
   align-items: center;
 
-  font-size: 16px;
-  font-weight: 400;
+  font-size: ${FONT_SIZE.TEXT_MD};
+  font-weight: ${FONT_WEIGHT.REGULAR};
   letter-spacing: -0.32px;
 
   input[type='radio'] {
     width: 24px;
     height: 24px;
     margin: 12px;
-    accent-color: #1261c4;
+    accent-color: ${COLOR.PRIMARY};
   }
 `;
 
