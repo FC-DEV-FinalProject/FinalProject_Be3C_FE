@@ -40,20 +40,16 @@ const RadioButton: React.FC<RadioBtnProps> = ({
 const labelWrapperStyle = css`
   display: flex;
   align-items: center;
-
   font-size: ${FONT_SIZE.TEXT_MD};
   font-weight: ${FONT_WEIGHT.REGULAR};
   letter-spacing: -0.32px;
-
   div {
     border-radius: 50%;
-
     &:hover {
       background-color: ${COLOR_OPACITY.PRIMARY_OPACITY10};
       transition: 0.3s;
     }
   }
-
   input[type='radio'] {
     width: 20px;
     height: 20px;
